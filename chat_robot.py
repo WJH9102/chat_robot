@@ -35,10 +35,10 @@ def get_robot_reply(question):
 if __name__ == '__main__':
 
     while True:
-        content = input("请输入聊天内容：\n")
+        content = input("我说：\n")
         if content == "退出":
             print("bye!")
             break
-        print(get_robot_reply(content))
+        print("机器人说：{}".format(get_robot_reply(content)))
 
 # 武汉今天天气怎么样
