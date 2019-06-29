@@ -16,6 +16,8 @@ def get_robot_reply(question):
         answer = "18"
     elif "你是GG还是MM" in question:
         answer = "你猜"
+    elif "我还有多少钱" in question:
+        answer = "没啦"
     else:
         try:
             # 调用NLP接口实智能回复
