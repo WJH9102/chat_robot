@@ -1,5 +1,11 @@
 #!/user/bin/env/ python3
 # _*_ coding: utf-8 _*_
+"""
+项目描述：基于微信公众号实现AI客服
+作者：WJH
+邮箱：1602526012@qq.com
+"""
+
 from urllib import request
 from urllib import parse
 
