@@ -34,7 +34,6 @@ def get_robot_reply(question):
             answer = r.decode()
         except Exception as e:
             answer = "AI机器人出现故障了{}".format(e)
-            # print(e)
 
     return answer
 
