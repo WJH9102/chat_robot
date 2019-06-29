@@ -1,4 +1,4 @@
-#!/user/bin/env/ python3
+#!/usr/bin/env/ python3
 # _*_ coding: utf-8 _*_
 """
 项目描述：基于微信公众号实现AI客服
